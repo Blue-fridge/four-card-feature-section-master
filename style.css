@@ -17,6 +17,7 @@ body{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     background-color: hsl(0, 0%, 98%);
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,7 @@ h2{
     text-align: center;
     color: hsl(229, 6%, 66%);
     font-weight: 400;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
 }
 h3,
 span{
@@ -37,7 +38,7 @@ span{
 .description{
     text-align: center;
     padding: 0 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -48,7 +49,7 @@ p{
 
 /* base styles */
 .card {
-    width: 80%;
+    width: 75%;
     margin: 1.5rem auto;
     border-radius: 6px;
     box-shadow: var(--card-box-shadow);
@@ -72,7 +73,7 @@ p{
 .card-imge{
     position: relative;
     left: 75%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     
 }
 
@@ -107,11 +108,11 @@ p{
 
     .supervisor{
         position: relative;
-        left: 6%;
+        left: 17%;
     }
     .calculator{
         position: relative;
-        left: -6%;
+        left: -17%;
 
     }
 }
@@ -128,11 +129,11 @@ p{
     }
     .supervisor{
         position: relative;
-        left: 9%;
+        left: 19%;
     }
     .calculator{
         position: relative;
-        left: -9%;
+        left: -19%;
 
     }
 }
